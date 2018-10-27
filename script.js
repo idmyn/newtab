@@ -2,6 +2,9 @@ document.addEventListener('keydown', function(event) {
   if(event.keyCode == 67) {
     window.location.href = 'https://lichess.org';
   }
+  if(event.keyCode == 68) {
+    window.location.href = 'https://start.duckduckgo.com';
+  }
   if(event.keyCode == 69) {
     window.location.href = 'https://mail.tutanota.com';
   }
