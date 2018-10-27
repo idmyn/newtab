@@ -1,0 +1,27 @@
+body {
+  background: #f7f7f7;
+  font-family: "Source Sans Pro";
+  font-size: 1.3rem;
+
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+a {
+  color: #424b54;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 0.5em;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+nav {
+  width: 40%;
+  margin-left: 36%; /* lazy, I know */
+  column-count: 2;
+}
